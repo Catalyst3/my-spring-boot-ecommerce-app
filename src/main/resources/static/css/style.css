@@ -1,0 +1,74 @@
+/* Import Bootstrap CSS */
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
+
+/* Import Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Custom Error 404 Page Styles */
+@import url("https://unpkg.com/bs-brain@2.0.4/components/error-404s/error-404-1/assets/css/error-404-1.css");
+
+/* Global Styles */
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.text-custom-colour {
+	color: #4caf50;
+}
+
+
+/* Navbar Styles */
+.navbar {
+	background-color: #cfebae;
+	/* Primary Green */
+}
+
+.navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+/* Button Styles */
+.btn-colour {
+	background-color: #4caf50;
+	/* Primary Green */
+	color: #ffffff;
+	transition: background-color 0.3s ease;
+}
+
+.btn-colour:hover {
+	background-color: #8bc34a;
+	/* Light Green */
+	color: #ffffff;
+}
+
+/* Card Hover Effect */
+.card:hover {
+	box-shadow: 0 4px 8px rgba(69, 101, 33, 0.2);
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+/* List Group Item Hover Effect */
+.list-group-item:hover {
+	background-color: #f8f9fa;
+	cursor: pointer;
+}
+
+/* Product Image Styling */
+.product-image {
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* Container Margin */
+.container {
+	margin-top: 30px;
+}
+
+/* Typography (H4 Tag) */
+h4 {
+	font-weight: bold;
+}

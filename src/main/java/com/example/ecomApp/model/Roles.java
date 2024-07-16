@@ -21,13 +21,14 @@ import lombok.NoArgsConstructor;
 public class Roles {
 
 	@Id
-	@GeneratedValue (strategy = GenerationType.AUTO)
+	@Column(name = "role_id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer roleID;
-	
-	@Column(nullable = false,unique = true)
+
+	@Column(nullable = false, unique = true)
 	@NotEmpty
 	private String roleName;
-	
-	@ManyToMany(mappedBy = "roles")
+
+	@ManyToMany(mappedBy = "userRole")
 	private List<User> users;
 }

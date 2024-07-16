@@ -1,62 +1,24 @@
 <!doctype html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org"
-	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	<title>Document</title>
-	<style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .card:hover {
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            transition: box-shadow 0.3s ease-in-out;
-        }
-        .list-group-item:hover {
-            background-color: #f8f9fa;
-            cursor: pointer;
-        }
-        .product-image {
-            object-fit: cover;
-            border-radius: 10px;
-        }
-        .container {
-            margin-top: 30px;
-        }
-        h4 {
-            font-weight: bold;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-            transition: background-color 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
-        }
-        .text-primary {
-            color: #007bff !important;
-        }
-    </style>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>RMGU Sindhudurg</title>
+     <!-- CSS file -->
+     <link th:href="@{/css/style.css}" rel="stylesheet" />
 </head>
 
 <body>
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">
-				<img th:src="@{/images/logo.png}" src="../static/images/logo.png" width="auto" height="40"
-					class="d-inline-block align-top" alt="" />
-			</a>
+        <img th:src="@{/images/RMGU_LOGO.png}"  src="../static/images/RMGU_LOGO.png" alt="RMGU Sindhudurg" />
+      </a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -94,7 +56,7 @@
             <nav class="col-md-3 mb-4">
                 <h4 class="mb-4">Categories</h4>
                 <ul class="list-group">
-                    <a th:href="@{/shop}" class="text-decoration-none">
+                    <a th:href="@{/shop}" class="">
                         <li class="list-group-item">All Products</li>
                     </a>
                     <a href="" th:each="category : ${categories}" th:href="@{/shop/category/{id}(id=${category.id})}" class="text-decoration-none">
@@ -115,9 +77,9 @@
                                 <div class="col-md-7">
                                     <div class="card-body">
                                         <h5 class="card-title" th:text="${product.productName}"></h5>
-                                        <h4 class="text-primary">₹ <span th:text="${product.productPrice}"></span></h4>
+                                        <h4 class="text-custom-colour">₹ <span th:text="${product.productPrice}"></span></h4>
                                         <p class="card-text" th:text="${product.productDescription}"></p>
-                                        <a th:href="@{/shop/viewproduct/{id}(id=${product.productID})}" class="btn btn-primary">View Details</a>
+                                        <a th:href="@{/shop/viewproduct/{id}(id=${product.productID})}" class="btn btn-colour">View Details</a>
                                     </div>
                                 </div>
                             </div>
