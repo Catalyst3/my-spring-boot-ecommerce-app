@@ -2,6 +2,12 @@
 
 This is an e-commerce application built with Spring Boot for managing and selling products online. The application supports user authentication, product listing, cart management, and order processing.
 
+## Demo Video
+
+Here is a demo video showcasing how the application works:
+
+<iframe src="https://drive.google.com/file/d/1wqRIjnn41XiHNKAtxO7e2e1o1IHsagvP/preview" width="640" height="480" allow="autoplay"></iframe>
+
 ## Table of Contents
 
 - [Installation](#installation)
