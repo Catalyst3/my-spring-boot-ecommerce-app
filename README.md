@@ -75,3 +75,10 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## Contact
 If you have any questions or suggestions, feel free to contact me at sawantaditya350@gmail.com.
+### or
+<p align="left">
+<a href="https://twitter.com/adicatalyst45" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="adicatalyst45" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/sawantaditya350" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sawantaditya350" height="30" width="40" /></a>
+<a href="https://instagram.com/a_d_i_t_y_a_45" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="a_d_i_t_y_a_45" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/catalyst45" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="catalyst45" height="30" width="40" /></a>
+</p>
