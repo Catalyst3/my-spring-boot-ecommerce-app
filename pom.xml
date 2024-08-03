@@ -9,11 +9,11 @@
 		<version>2.4.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sheryians</groupId>
+	<groupId>com.aditya</groupId>
 	<artifactId>major</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>major</name>
-	<description>Major Project, An e commerce project</description>
+	<description>This is an e-commerce application built with Spring Boot for managing and selling products online. The application supports user authentication, product listing, cart management, and order processing.</description>
 
 	<properties>
 		<java.version>1.8</java.version>
