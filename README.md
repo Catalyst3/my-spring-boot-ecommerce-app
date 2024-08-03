@@ -10,7 +10,6 @@ This is an e-commerce application built with Spring Boot for managing and sellin
 - [Technologies Used](#technologies-used)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Installation
@@ -47,3 +46,29 @@ Once the application is running, open your browser and navigate to http://localh
 * Cart management
 * Order processing
 * Admin dashboard for managing products and orders
+
+## Technologies Used
+* Java
+* Spring Boot
+* Spring Security
+* OAuth2
+* H2 Database
+* Thymeleaf (or your chosen template engine)
+* Maven
+
+## Configuration
+```bash
+# Example configuration for H2 database
+spring.datasource.url=jdbc:h2:mem:database_name
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=User_Name
+spring.datasource.password=User_Password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.security.oauth2.client.registration.google.client-id=add_your_ID
+spring.security.oauth2.client.registration.google.client-secret=add_your_secret
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project’s coding standards and includes relevant tests.
+
+## Contact
+If you have any questions or suggestions, feel free to contact me at sawantaditya350@gmail.com.
