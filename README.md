@@ -6,8 +6,7 @@ This is an e-commerce application built with Spring Boot for managing and sellin
 
 Here is a demo video showcasing how the application works:
 
-<iframe src="https://drive.google.com/file/d/1wqRIjnn41XiHNKAtxO7e2e1o1IHsagvP/preview" width="640" height="480" allow="autoplay"></iframe>
-
+[![Watch the video](https://img.youtube.com/vi/Cn-kQg_6LDM/mqdefault.jpg)](https://youtu.be/Cn-kQg_6LDM?si=4SpbJnY7zBRSA0S5)
 ## Table of Contents
 
 - [Installation](#installation)
