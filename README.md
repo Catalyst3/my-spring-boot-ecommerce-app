@@ -64,8 +64,11 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=User_Name
 spring.datasource.password=User_Password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+# OAuth2 Configuration for Google login
 spring.security.oauth2.client.registration.google.client-id=add_your_ID
 spring.security.oauth2.client.registration.google.client-secret=add_your_secret
+```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project’s coding standards and includes relevant tests.
