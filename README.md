@@ -29,7 +29,7 @@ This is an e-commerce application built with Spring Boot for managing and sellin
 
 4. Set up the database:
    ```bash
-   The application uses an H2 database by default. No additional setup is required for H2. If you want to use a different database, update the application.properties file.
+   The application uses an H2 database by default. No additional setup is required for H2. If you want to use a different database, update the "application.properties" file.
 
 5. Run the application:
    ```bash
@@ -38,3 +38,12 @@ This is an e-commerce application built with Spring Boot for managing and sellin
 ## Usage
 
 Once the application is running, open your browser and navigate to http://localhost:8080. You can register as a new user, browse products, add items to your cart, and place orders.
+
+## Features
+
+* User authentication and authorization
+* OAuth2 login (Google)
+* Product listing and search
+* Cart management
+* Order processing
+* Admin dashboard for managing products and orders
